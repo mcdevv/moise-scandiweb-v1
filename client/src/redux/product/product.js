@@ -15,7 +15,7 @@ export const getProductById = (productId) => async (dispatch) => {
     const queryResult = await client.post(productQuery);
     console.log('redux/product getProductById() fetchedData', queryResult);
 
-    dispatch({ type: UPDATE, payload: { queryResult } });
+    dispatch({ type: UPDATE, payload: queryResult });
   } catch (e) {
     console.log('error', e);
     dispatch({ type: UPDATE, payload: [] });
