@@ -13,13 +13,6 @@ On this last step of the project, I used style from `Zeplin`.
 ![screenshot](image/bookstore.png).
 
 
-git init
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/mcdevv/moise-scandiweb-v1.git
-git push -u origin main
-
-
 ## Built With
 
 - React
